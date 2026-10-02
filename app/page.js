@@ -2,7 +2,7 @@ const tiers = [
   { name: "Chancer", price: "Free", features: ["50 messages / month", "1 seat", "Email support"] },
   { name: "Charmer", price: "€49", per: "/month", highlight: true, features: ["2,000 messages / month", "5 seats", "CRM sync", "Tone presets"] },
   { name: "Full Blarney", price: "€199", per: "/month", features: ["Unlimited messages", "20 seats", "A/B subject lines", "Priority support"] },
-  { name: "Kiss the Stone", price: "Talk to us", features: ["Enterprize SSO", "Custom models", "Dedicated success manager"] },
+  { name: "Kiss the Stone", price: "Talk to us", features: ["Enterprise SSO", "Custom models", "Dedicated success manager"] },
 ];
 
 export default function Home() {
