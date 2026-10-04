@@ -5,6 +5,12 @@ const tiers = [
   { name: "Kiss the Stone", price: "Talk to us", features: ["Enterprise SSO", "Custom models", "Dedicated success manager"] },
 ];
 
+const faqs = [
+  { q: "Is there a free trial?", a: "Yes. The Chancer plan is free forever (50 messages a month, no card needed), and every paid plan comes with a 14-day free trial." },
+  { q: "Can I change plans later?", a: "Any time. Upgrade or downgrade from your account settings and we'll prorate the difference." },
+  { q: "Does it work with my CRM?", a: "Charmer and above sync with the major CRMs, so every message lands where your team expects it." },
+];
+
 export default function Home() {
   return (
     <main>
@@ -40,6 +46,16 @@ export default function Home() {
             </div>
           ))}
         </div>
+      </section>
+
+      <section id="faq" className="faq">
+        <h2>FAQ</h2>
+        {faqs.map((f) => (
+          <details key={f.q} open={f.q === faqs[0].q}>
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
       </section>
 
       <footer>© 2026 Blarney.io — a fictional company for demo purposes.</footer>
