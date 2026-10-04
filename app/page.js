@@ -25,6 +25,7 @@ export default function Home() {
       <section className="hero">
         <h1>Words, but better.</h1>
         <p className="sub">The gift of the gab, as a service.</p>
+        <p className="explainer">Blarney rewrites your AI-generated outreach so it reads like it came from your best rep: warm, specific, and unmistakably human. More replies, fewer cringes, and nobody has to know a robot did the first draft.</p>
         <a href="#pricing" className="cta">See pricing</a>
       </section>
 
