@@ -9,7 +9,8 @@ a { color: inherit; text-decoration: none; }
 .signup:hover { background: #17603c; transform: translateY(-1px); }
 .hero { text-align: center; padding: 100px 6vw 80px; }
 .hero h1 { font-size: clamp(40px, 6vw, 68px); letter-spacing: -1.5px; }
-.sub { font-size: 20px; color: #4d5a53; margin: 12px 0 32px; }
+.sub { font-size: 20px; color: #4d5a53; margin: 12px 0 16px; }
+.explainer { font-size: 17px; line-height: 1.55; color: #4d5a53; max-width: 560px; margin: 0 auto 32px; }
 .cta { display: inline-block; background: #1f7a4d; color: #fff; padding: 14px 28px; border-radius: 10px; font-weight: 600; }
 .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; padding: 40px 6vw 80px; }
 .features div { background: #fff; padding: 28px; border-radius: 14px; border: 1px solid #e6e3da; }
