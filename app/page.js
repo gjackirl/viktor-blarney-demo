@@ -23,7 +23,7 @@ export default function Home() {
       </nav>
 
       <section className="hero">
-        <h1>Words, but better.</h1>
+        <h1>AI outreach that sounds like your best rep.</h1>
         <p className="sub">The gift of the gab, as a service.</p>
         <a href="#pricing" className="cta">See pricing</a>
       </section>
