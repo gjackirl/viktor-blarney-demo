@@ -1,3 +1,4 @@
+import ThemeToggle from "./ThemeToggle";
 const tiers = [
   { name: "Chancer", price: "Free", features: ["50 messages / month", "1 seat", "Email support"] },
   { name: "Charmer", price: "€49", per: "/month", highlight: true, features: ["2,000 messages / month", "5 seats", "CRM sync", "Tone presets"] },
@@ -18,6 +19,7 @@ export default function Home() {
         <span className="logo">Blarney<span className="dot">.io</span></span>
         <div className="navlinks">
           <a href="#pricing">Pricing</a>
+          <ThemeToggle />
           <a href="#signup" className="signup">Sign up</a>
         </div>
       </nav>
