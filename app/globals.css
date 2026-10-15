@@ -57,3 +57,12 @@ html.dark .card.hl { border-color: #4cc38a; }
 html.dark .price span, html.dark .fb-x { color: #93a099; }
 html.dark footer { color: #7d8a83; }
 html.dark .fb-panel input, html.dark .fb-panel textarea { background: #0f1613; color: #e6ece8; border-color: #2a3530; }
+/* Try it */
+.try { max-width: 760px; margin: 0 auto; padding: 20px 6vw 60px; text-align: center; }
+.try h2 { font-size: 36px; margin-bottom: 8px; }
+.try form { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.try input { flex: 1 1 260px; font: inherit; padding: 12px 14px; border: 1px solid #d9d5ca; border-radius: 10px; }
+.try button { background: #1f7a4d; color: #fff; border: 0; padding: 12px 20px; border-radius: 10px; font-weight: 700; cursor: pointer; }
+.try-out { margin-top: 18px; text-align: left; background: #fff; border: 1px solid #e6e3da; border-left: 4px solid #1f7a4d; border-radius: 10px; padding: 16px 18px; }
+html.dark .try input { background: #0f1613; color: #e6ece8; border-color: #2a3530; }
+html.dark .try-out { background: #18211d; border-color: #2a3530; border-left-color: #4cc38a; }

@@ -1,4 +1,5 @@
 import ThemeToggle from "./ThemeToggle";
+import TryIt from "./TryIt";
 const tiers = [
   { name: "Chancer", price: "Free", features: ["50 messages / month", "1 seat", "Email support"] },
   { name: "Charmer", price: "€49", per: "/month", highlight: true, features: ["2,000 messages / month", "5 seats", "CRM sync", "Tone presets"] },
@@ -30,6 +31,8 @@ export default function Home() {
         <p className="explainer">Blarney rewrites your AI-generated outreach so it reads like it came from your best rep: warm, specific, and unmistakably human. More replies, fewer cringes, and nobody has to know a robot did the first draft.</p>
         <a href="#pricing" className="cta">See pricing</a>
       </section>
+
+      <TryIt />
 
       <section className="features">
         <div><h3>Write</h3><p>Outreach that sounds like your best rep on their best day.</p></div>
